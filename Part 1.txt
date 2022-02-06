@@ -1,0 +1,43 @@
+﻿---------------------------Part 1 Questions------------------------------
+1.
+    This code tracks an inventory during a few days. Each day, according
+    to a few parameters, the quality of each item in the inventory will
+    be updated. The program runs 30 days.
+   
+2.
+    The goods in the Guilded Rose are easily identifiable, however the 
+    display is really messy. There are so many days that follow 
+    themselves and they are all put together on a vertical alignment.
+    Still, we can find each item description in the "Program.cs" file,
+    because they are all created inside the main loop. This way, we can
+    clearly identify all items' names.
+
+3.
+    When the day is over, all of the items' qualities are updated following
+    some rules declared in the "GuildedRose.cs" class/file. Also, the program
+    sets a blank space so that the current day will have space between it and
+    the next day.
+    
+4.
+    At the end of each day, the quality of the cheese increases by 2. Why ? 
+    Because the cheese gets better and better with time according to the rules
+    said in the document.
+
+5.
+    When a concert ticket goes over its expiration day, its quality goes to 0,
+    because the concert already passed, so it has no value anymore.
+    
+6.
+    This code is hard to read because it has no comments. Most of the information
+    I gathered was coming from the french explanation of the code. 
+    Also, the display of each day in the run is very hard to read because all of 
+    the days are done at the same time and we can't see many of them clearly.
+    Finally, there is too much code in the main program and it should be better
+    separated into multiple files.
+
+7.
+    Yes, I think the rules are clear enough to make a new solution from scratch,
+    thanks to the french documentation online that explains what the code does
+    when running.
+    
+    
